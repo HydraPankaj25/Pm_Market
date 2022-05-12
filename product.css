@@ -1,0 +1,451 @@
+/* body  */
+.color{
+    background-color: rgb(255 231 221);
+}
+
+/* home */
+#imagetext{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border: 3px solid black;
+    height: 100%;
+    background-color: #1b1b1b;
+}
+.crousalimage img{
+    z-index: -1;
+}
+.cosmetic{
+    border: 2px solid grey;
+    height: 49px;
+    background-color: #827b7b;
+    font-size: 32px;
+    font-family: math;
+    margin-top: 112px;
+    margin-left: -15px;
+    color: white;
+}
+.wholesale{
+    border: 2px solid orange;
+    height: 39px;
+    background-color:#ca4403;
+    font-size: 21px;
+    font-family: cursive;
+    margin-top: 7px;
+    margin-left: -15px;
+    color: white;
+}
+.online{
+    border: 2px solid orange;
+    height: 39px;
+    background-color:#ca4403;
+    font-size: 21px;
+    font-family: cursive;
+    margin-top: 7px;
+    margin-left: -15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* transport line in home page */
+.transport{
+    border: 2px solid grey;
+    background-color: #343434;
+}
+.transport img{
+    height: 55px;
+    width: 62px;
+}
+.transport p{
+    margin-top: -18px;
+    margin-bottom: 3px;
+    margin-left: 66px;
+    font-size: 10px;
+    color: white;
+}
+
+/* new arrival products in home page */
+.newarrival{
+    border: 2px solid black;
+    height: 46rem;
+}
+.newarrivalText{
+    border: 2px solid black;
+    margin-top: 10rem;
+    background-color: white;
+}
+.newarrivalText span{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 142px;
+}
+.newarrivalImage{
+    border: 2px solid black;
+}
+.newarrivalImage img{
+    height: 386px;
+    width: 100%;
+}
+.newarrivalProduct{
+    border: 2px solid black;
+    width: 100%;
+    
+}
+.newarrivalProduct img{
+    border: 1px solid black;
+    height: 250px;
+    width: 100%;
+}
+.newarrivalProduct button{
+    background-color: rgb(142, 0, 190);
+    width: 100%;
+}
+
+/* topline of page */
+.topline{
+    height: 35px;
+    background-color: black;
+}
+#logolink{
+    display: inline-block;
+    /* float: left; */
+    padding-left: 32rem;
+}
+
+#logolink a img{
+    height: 30px;
+    width: 30px;
+    padding-left:3px ;
+}
+.smallline{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 13rem;
+}
+.toplinelink{
+    padding-top: 6px;
+}
+.toplinelink a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    height: 22px;
+    border-left: 2px solid white;
+}
+.toplinelink a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+/* second line  */
+.secondLine{
+    height: 90px;
+}
+.secondHead{
+    width:45rem;
+    display: inline-block;
+    padding-top:19px ;
+}
+.secondHead img{
+    height: 52px;
+    width: 52px;
+    margin-left: 11rem;
+    float: left;
+}
+.para1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(26, 159, 236);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.para2{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: rgb(214, 106, 124);
+    display: inline-block;
+}
+.secondPhone{
+    width: 45rem;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    height: 83px;
+}
+.secondPhone p{
+    font-size: 22px;
+    color: rgb(240, 78, 3);
+    margin: 0px;
+    display: inline-block;
+    font-weight: 100;
+    margin: 5px;
+    margin-top: 12px;
+}
+.smallbox img{
+    height: 33px;
+    width: 33px;
+    float: left;
+    margin-top: 25px;
+    /* margin-left: 105px; */
+}
+.viewcart{
+    height: 33px;
+    width: 97px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid black;
+    float: left;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+
+/* navbar */
+.navbar-def{
+    background-color: rgb(163, 10, 10);
+}
+.navbar-def ul li a{
+    font-weight: bold;
+    color: orange;
+}
+.navbar-def ul :hover{
+    font-weight: bolder;
+    color: black;
+}
+
+/* heading  */
+.heading{
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    background-color: rgb(246, 150, 71);
+}
+.heading h1{
+    margin-top: -19px;
+}
+
+/* products */
+.product{
+      border: 2px solid black;
+}
+
+.btn{
+    background-color: rgb(142, 0, 190);
+    width: 100%;
+}
+.btn button{
+    border: 0px solid black;
+    background-color: rgb(142, 0, 190);
+}
+
+/* section */
+.section{
+    margin-top: 10px;
+}
+
+/* last section  */
+.sectionLast{
+    margin-top: 10px;
+    background-color: rgb(73, 72, 72);
+}
+.lastHead{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.lastHead ul a:hover{
+    color: lightgreen;
+}
+
+/* last foot line  */
+.foot{
+    background-color:rgb(163, 10, 10);
+    color: white;
+    padding: 0px;
+}
+.foot span{
+    font-size: 18px;
+    margin-left:336px;
+}
+.foot p{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+
+/* login page  */
+.loginfo{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(144, 144, 144);
+    width: 50%;
+    border-radius: 10px;
+    z-index: 2;
+}
+.loginfo div{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.pass{
+    border: 2px solid gray;
+    height: 45px;
+    width: 275px;
+    border-radius: 10px;
+    margin-left: 85px;
+    color: black;
+}
+.name{
+    border: 2px solid gray;
+    height: 45px;
+    width: 275px;
+    border-radius: 10px;
+    margin-left: 85px;
+    color: black;
+}
+.logbackbtn{
+    margin-left: 19px;
+    margin-top: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* signup page  */
+.signuprow{
+
+}
+.signuprow:first-child{
+    margin-top: 10px;
+}
+.signupinfo{
+    position: absolute;
+    top: 10%;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px solid grey;
+    background-color: rgb(172, 171, 171);
+    border-radius: 10px;
+}
+#warning{
+    color: red;
+    background-color: rgb(255, 184, 184);
+    display: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 39px;
+    margin-top: 10px;
+}
+.signupbackbtn{
+    margin-left: 39px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signupinfo div{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.pass1{
+    border: 2px solid gray;
+    height: 45px;
+    width: 275px;
+    border-radius: 10px;
+    margin-left: 62px;
+    color: black;
+}
+.pass2{
+    border: 2px solid gray;
+    height: 45px;
+    width: 275px;
+    border-radius: 10px;
+    margin-left: 46px;
+    color: black;
+}
+
+/* subscribe line logo links */
+#subscribelogolink{
+    display: inline-block;
+}
+#subscribelogolink a img{
+    height: 38px;
+    width: 37px;
+}
+.subscribe{
+    border: 2px solid black;
+    height: 43px;
+    background-color: #2d2b2b;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.subscribe div button{
+    height: 40px;
+    width: 140px;
+    font-weight: bolder;
+    background-color: lightsalmon;
+    color: blue;
+    border-radius: 5px;
+}
+.subscribe span{
+    font-size: 27px;
+    font-style: italic;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+
+/* subscribe search bar  */
+.subscribeSearchbar{
+    border: 2px solid black;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #ffb9b9;
+    position: absolute;
+    top: 232rem;
+    left: 14rem;
+    width: 125rem;
+    display: none;
+    z-index: 2;
+}
+.subscribeSearchbar input{
+    height: 50px;
+    margin-top: 8px;
+    width: 110rem;
+    margin-left: 31px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.subscribeSearchbar span{
+    border: 2px solid red;
+    font-size: 30px;
+}
+.subscribeSearchbar span:hover{
+    cursor: pointer;
+}
+
+/* end finish images */
+.endFinish{
+    height: 241px;
+    background-color: #ffbcbc;
+}
+.endFinish img{
+    height: 24rem;
+    width: 34rem;
+}
